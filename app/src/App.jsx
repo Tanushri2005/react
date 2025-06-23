@@ -196,11 +196,11 @@ import Placement from './Placement';
 function App() {
   return (
     <Router>
-     {/* <nav style={{ display: 'flex', gap: '1rem', padding: '1rem', background: '#eee' }}> 
+      <nav style={{ display: 'flex', gap: '1rem', padding: '1rem', background: '#eee' }}> 
         <Link to="/">Name</Link>
         <Link to="/about">About</Link>
         <Link to="/placement">Placement</Link>
-      </nav>*/}
+      </nav>
 
       <Routes>
         <Route path="/" element={<Name />} />
